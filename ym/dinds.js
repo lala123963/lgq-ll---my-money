@@ -2,9 +2,8 @@
  * 叮咚买菜APP，叮咚果园，叮咚鱼塘
  * 需要先完成新手引导任务
  * 地址： https://raw.githubusercontent.com/sofm13/qinlongjs/master/zsq_JS/dinds.js
- * 
- * cron  5 8,11,17 * * *     sofm13_qinlongjs_master/dinds.js
- * 
+ cron  5 8,11,17 * * *
+ const $ = new Env("叮咚买菜")
  * 4-27   叮咚鱼塘更新，叮咚买菜App签到,叮咚果园自动浇水，领福袋，每日签到，连续签到，浏览商品，完成任务等
  * 有需求可加入tg：https://t.me/zsq_ql, https://t.me/zsq_sofm13 联系群主 @sofm_13 或Q群978963762来一起交流啊
  * 
@@ -14,8 +13,6 @@
  * 变量格式：export dindong_cookie=' xxxx & xxx @  xxxx & xxx '  多个账号用 @分割 
  * 
  */
-
-const $ = Env(叮咚买菜);
 const notify = $.isNode() ? require('./sendNotify') : ''; // 这里是 node（青龙属于node环境）通知相关的
 const Notify = 1; //0为关闭通知，1为打开通知,默认为1
 const debug = 0; //0为关闭调试，1为打开调试,默认为0
