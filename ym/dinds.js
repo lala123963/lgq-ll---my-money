@@ -2,7 +2,7 @@
  * 叮咚买菜APP，叮咚果园，叮咚鱼塘
  * 需要先完成新手引导任务
  * 地址： https://raw.githubusercontent.com/sofm13/qinlongjs/master/zsq_JS/dinds.js
- cron  5 8,11,17 * * *
+ cron: 5 8,11,17 * * *
  const $ = new Env("叮咚买菜")
  * 4-27   叮咚鱼塘更新，叮咚买菜App签到,叮咚果园自动浇水，领福袋，每日签到，连续签到，浏览商品，完成任务等
  * 有需求可加入tg：https://t.me/zsq_ql, https://t.me/zsq_sofm13 联系群主 @sofm_13 或Q群978963762来一起交流啊
