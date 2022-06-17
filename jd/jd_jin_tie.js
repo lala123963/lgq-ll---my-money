@@ -4,6 +4,7 @@
  Last Modified By X1a0He
  活动入口：京东APP首页-领金贴，[活动地址](https://active.jd.com/forever/cashback/index/)
  */
+cron: 30 0 * * *
 const $ = new Env('领金贴');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
