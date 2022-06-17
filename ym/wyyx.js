@@ -4,7 +4,7 @@
  *
  * 网易严选  app
  *
-20 7,12 * * *  yml2213_javascript_master/wyyx_app.js
+ * 20 7,12 * * *  yml2213_javascript_master/wyyx_app.js
  *
  * 6-12		完成 签到 浏览 前进 任务 
  * 6-12		重写应该行了 ,抓到数据后自己关闭重写
@@ -25,7 +25,7 @@
  * 
  */
 
-
+cron: 20 7,12 * * *
 const $ = new Env("网易严选");
 const notify = $.isNode() ? require("./sendNotify") : "";
 const Notify = 1 		//0为关闭通知,1为打开通知,默认为1
