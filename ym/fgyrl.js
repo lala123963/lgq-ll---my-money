@@ -5,9 +5,8 @@
 变量名 fgyrlck  多账号@隔开
 
 一天五毛吧。长期玩。100提现。管他到不到。挂着呗。自动提现写了。。挂着不管就行。。
-
-
 */
+cron: 40 0 * * *
 const $ = new Env('微信小程序-飞鸽云人力');
 let status;
 status = (status = ($.getval("fgyrlckstatus") || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
