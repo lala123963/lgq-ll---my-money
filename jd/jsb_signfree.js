@@ -1,6 +1,7 @@
 /*
  cron 18 9 * * * jd_speed_signfree_Mod.js 签到免单
 */
+cron: 20 0,16 * * *
 const $ = new Env('京东极速签到免单')
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
