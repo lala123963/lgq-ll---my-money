@@ -10,12 +10,13 @@
 55 22 * * * jd_unsubscriLive.js, tag=取关所有主播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 ===========Loon============
 [Script]
-cron "55 22 * * *" script-path=jd_unsubscriLive.js,tag=取关所有主播
+cron: 55 22 * * * script-path=jd_unsubscriLive.js,tag=取关所有主播
 ============Surge=============
 取关所有主播 = type=cron,cronexp="55 22 * * *",wake-system=1,timeout=3600,script-path=jd_unsubscriLive.js
 ===========小火箭========
 取关所有主播 = type=cron,script-path=jd_unsubscriLive.js, cronexpr="55 22 * * *", timeout=3600, enable=true
  */
+cron: 55 22 * * *
 const $ = new Env('取关所有主播');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
