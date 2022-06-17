@@ -1,4 +1,4 @@
-cron: 10 2 * * *
+cron: 10 2,22 * * *
 const $ = new Env("绿色的喵");
 const notify = $.isNode() ? require("./sendNotify") : "";
 const Notify = 1 		//0为关闭通知,1为打开通知,默认为1
