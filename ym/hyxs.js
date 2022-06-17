@@ -21,7 +21,7 @@ hostname = yezi.jiaaisi.cn
 
 
 
-const $ = new Env('火云邪神');
+const $ = new Env('微信小程序-火云邪神');
 let status;
 
 status = (status = ($.getval("hyxsstatus") || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
