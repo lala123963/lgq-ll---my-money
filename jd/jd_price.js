@@ -12,10 +12,10 @@ cron "41 11 */3 * *" jd_priceProtect_Mod.js, tag:京东价保一对一推送版
 cron "41 11 */3 * *" script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_price.js,tag=京东保价
 
 ===============Surge=================
-京东保价 = type=cron,cronexp="39 20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_price.js
+京东保价 = type=cron,cronexp="41 11 */3 * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_price.js
 
 ============小火箭=========
-京东保价 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_price.js, cronexpr="39 20 * * *", timeout=3600, enable=true
+京东保价 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/JDJB/main/jd_price.js, cronexpr="41 11 */3 * *", timeout=3600, enable=true
  */
 const $ = new Env('京东保价');
 const notify = $.isNode() ? require('./sendNotify') : '';
