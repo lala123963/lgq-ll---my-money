@@ -10,6 +10,7 @@ https://api.fywa.com.cn/ 接口链接。
 提现金额自己更改脚本19行  
 
 */
+cron: 0 0 * * *
 const $ = new Env('放羊娃');
 let status;
 status = (status = ($.getval("fywstatus") || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
