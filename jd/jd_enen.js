@@ -18,7 +18,7 @@
 
  */
 
-const $ = new Env('嗯嗯');
+const $ = new Env('京东CK失效');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', message;
 if ($.isNode()) {
