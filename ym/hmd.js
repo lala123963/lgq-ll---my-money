@@ -19,7 +19,7 @@ https://b2b.homedo.com/mall-pcweb-compositeservice/member/userInfo/getLoginInfoS
 [mitm]
 hostname = b2b.homedo.com
 
-0 12 * * * https://raw.githubusercontent.com/liuqi6968/-/main/hmd.js, tag=和睦度(app), img-url=https://github.com/xl2101200/-/blob/main/tom.png, enabled=false
+cron: 0 12 * * *  https://raw.githubusercontent.com/liuqi6968/-/main/hmd.js, tag=和睦度(app), img-url=https://github.com/xl2101200/-/blob/main/tom.png, enabled=false
 const $ = new Env("和睦度")
  */
 
