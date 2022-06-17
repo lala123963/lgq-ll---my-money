@@ -8,7 +8,7 @@
 
 
 */
-const $ = new Env('飞鸽云人力');
+const $ = new Env('微信小程序-飞鸽云人力');
 let status;
 status = (status = ($.getval("fgyrlckstatus") || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
 let fgyrlckArr = [], fgyrlckcount = ''
