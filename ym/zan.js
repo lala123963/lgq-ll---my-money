@@ -8,7 +8,8 @@ api/latch/jungle-account/account/accounts url script-request-body zan.js
 正常登录后进入小程序首页~点击“我的”获取tk，变量名:zatk
 支持多账号
 boxjs地址: https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/leafxcy.box.json
-
+cron: 1 0 * * *
+const $ = new Env("微信小程序:众安好车主")
 脚本地址: https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/zhongan/zan.js
 */
 
