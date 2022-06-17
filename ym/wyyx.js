@@ -4,7 +4,7 @@
  *
  * 网易严选  app
  *
- * cron: 20 7,12 * * *  yml2213_javascript_master/wyyx_app.js
+ * cron:20 7,12 * * *  yml2213_javascript_master/wyyx_app.js
  *
  * 6-12		完成 签到 浏览 前进 任务 
  * 6-12		重写应该行了 ,抓到数据后自己关闭重写
